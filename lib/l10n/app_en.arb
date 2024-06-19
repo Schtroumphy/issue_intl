@@ -1,0 +1,36 @@
+{
+  "@@locale": "en",
+  "@@last_modified": "2024-01-16T09:29:58+01:00",
+
+  "and": "{left} and {right}",
+  "@and": {
+    "placeholders": {
+      "left": {
+        "example": "value",
+        "type": "String"
+      },
+      "right": {
+        "example": "other value",
+        "type": "String"
+      }
+    }
+  },
+  "fromStartDateYMD": "From {date}",
+  "@fromAllocationStartDate": {
+    "placeholders": {
+      "date": {
+        "format": "yMd",
+        "type": "DateTime"
+      }
+    }
+  },
+  "fromStartYMMD": "From {date}",
+  "@fromRouteStart": {
+    "placeholders": {
+      "date": {
+        "format": "yMMMd",
+        "type": "DateTime"
+      }
+    }
+  }
+}
